@@ -4,6 +4,6 @@ var path = require('path');
 
 app.use(express.static('./public'));
 
-app.all('/*', function(req, res) { res.sendFile(path.resolve('public/index.html')); });
+app.all('/*', function(req, res) { res.sendFile(path.resolve('application/index.html')); });
 
 module.exports = app;
