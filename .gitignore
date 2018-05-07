@@ -1,3 +1,5 @@
 
 package-lock.json
-application/index.html
+application/*
+node_modules/*
+
